@@ -147,8 +147,10 @@ $founderage = $_REQUEST['founderrace'];
 
       <!-- Header -->
         <header id="header" class="alt">
-          <h1 id="startup">Launch<a href="https://startit.today"></a></h1><h1 id="launchlab">Lab</h1>
+          <h1 id="startup">Launch<a href="https://startit.today" id="startuplink"></a></h1><h1 id="launchlab">Lab</h1>
           <nav id="nav">
+          <h1 id="builtwith">Built with:<a href="startit.today/about"></a></h1>
+          
             <ul>
               <li>
                 <a href="#" class="icon fa-angle-down">More</a>
