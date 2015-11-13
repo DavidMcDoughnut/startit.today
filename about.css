@@ -23,6 +23,11 @@
 		vertical-align: baseline;
 	}
 
+	#howtouse {
+		text-align: right;
+		color: rgb(227, 134, 43);
+	}
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -354,11 +359,11 @@
 	}
 
 	.row.uniform.\35 0\25 > * {
-		padding: 3em 0 0 1em;
+		padding: 0em 0 0 1em;
 	}
 
 	.row.uniform.\35 0\25 {
-		margin: -2em 0 4em -1em;
+		margin: -2em 0 2em -1em;
 	}
 
 	.row.\32 5\25 > * {
@@ -444,7 +449,7 @@
 	}
 
 	.\31 u, .\31 u\24 {
-		width: 8.3333333333%;
+		width: 20%;
 		clear: none;
 		margin-left: 0;
 	}
@@ -567,11 +572,11 @@
 		}
 
 		.row.uniform.\35 0\25 > * {
-			padding: 3em 0 0 1em;
+			padding: 0em 0 0 1em;
 		}
 
 		.row.uniform.\35 0\25 {
-			margin: -3.3em 0 4em -1em;
+			margin: -3.3em 0 2em -1em;
 		}
 
 		.row.\32 5\25 > * {
@@ -782,11 +787,11 @@
 		}
 
 		.row.uniform.\35 0\25 > * {
-			padding: 3em 0 0 1em;
+			padding: 0em 0 0 1em;
 		}
 
 		.row.uniform.\35 0\25 {
-			margin: -1em 0 4em -1em;
+			margin: -1em 0 2em -1em;
 		}
 
 		.row.\32 5\25 > * {
@@ -997,11 +1002,11 @@
 		}
 
 		.row.uniform.\35 0\25 > * {
-			padding: 3em 0 0 1em;
+			padding: 0em 0 0 1em;
 		}
 
 		.row.uniform.\35 0\25 {
-			margin: -1em 0 4em -1em;
+			margin: -1em 0 2em -1em;
 		}
 
 		.row.\32 5\25 > * {
@@ -1212,11 +1217,11 @@
 		}
 
 		.row.uniform.\35 0\25 > * {
-			padding: 3em 0 0 1em;
+			padding: 0em 0 0 1em;
 		}
 
 		.row.uniform.\35 0\25 {
-			margin: -1em 0 4em -1em;
+			margin: -1em 0 2em -1em;
 		}
 
 		.row.\32 5\25 > * {
@@ -1427,11 +1432,11 @@
 		}
 
 		.row.uniform.\35 0\25 > * {
-			padding: 3em 0 0 1em;
+			padding: 0em 0 0 1em;
 		}
 
 		.row.uniform.\35 0\25 {
-			margin: -1em 0 4em -1em;
+			margin: -1em 0 2em -1em;
 		}
 
 		.row.\32 5\25 > * {
@@ -1642,11 +1647,11 @@
 		}
 
 		.row.uniform.\35 0\25 > * {
-			padding: 2.5em 0 0 1em;
+			padding: 0em 0 0 1em;
 		}
 
 		.row.uniform.\35 0\25 {
-			margin: -1em 0 3em -1em;
+			margin: -1em 0 2em -1em;
 		}
 
 		.row.\32 5\25 > * {
@@ -1832,7 +1837,7 @@
 	}
 
 		a:hover {
-			border-bottom-color: transparent;
+			color: rgb(227, 134, 43);
 		}
 
 	strong, b {
@@ -1849,10 +1854,10 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: rgb(0,188,212);
+		color: rgb(150,150,150);
 		font-weight: 300;
 		line-height: 1em;
-		margin: 0 0 0.5em 0;
+		margin: 0 0 1em 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1873,8 +1878,8 @@
 	}
 
 	h4 {
-		font-size: 1.1em;
-		line-height: 1.5em;
+		font-size: 1em;
+		line-height: 1.65em;
 		letter-spacing: 0;
 	}
 
@@ -1995,7 +2000,7 @@
 
 	header.major {
 		padding: 1em 0;
-		text-align: center;
+		text-align: left;
 		margin-top: 2em;
 	}
 
@@ -2386,7 +2391,7 @@
 		border-radius: 6px;
 		box-shadow: none;
 		margin: 0 0 2em 0;
-		padding: 0 0 1em 0;
+		padding: 2em 2em 2em 2em;
 		display: relative;
 		top: -200px;
 	}
@@ -2460,7 +2465,7 @@
 				}
 
 		.box.special {
-			text-align: center;
+			text-align: justify;
 
 		}
 
@@ -2823,7 +2828,7 @@
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
-		margin: 0 0 2em 0;
+		margin-left: 0 0 2em 0;
 	}
 
 		input[type="submit"]:hover,
@@ -3059,17 +3064,19 @@
 
 			#builtwith{
 				color: rgb(0,0,0);
-				height: 2em;
-				line-height: 0em;
+				height: inherit;
+				left: -210%;
+				right: 50%;
+				line-height: inherit;
 				margin: 0;
 				padding: 0;
+				position: absolute;
+				top: 0em;
 				letter-spacing: .2em;
-				font-size: 1em;
+				font-size: .9em;
 				text-align: center;
-				vertical-align: middle;
-				position: relative;
-				top: -3em;
-							
+				width: 10em;
+				
 
 			}
 
@@ -3082,16 +3089,16 @@
 				color: #fff;
 				font-weight: 400;
 				border: 0;
-				height: 3em;
+				width:5em;
+				height: 4em;
 				background-image: url("dblogoswhite.png");
 				background-repeat: no-repeat;
 				background-size: 5em;
 				display: inline-block;
+				position: absolute;
+				top: -.28em;
 				background-position: center;
-				margin-left: 0em;
-				width: 6em;
-				position: relative;
-				top: 1.12em;
+				margin-left: .2em;
 				
 				
 			}
@@ -3131,6 +3138,7 @@
 				
 			}
 */
+
 
 		#header nav {
 			height: inherit;
@@ -3438,9 +3446,36 @@
 				padding: 1em 0 1.25em 0;
 			}
 
+			#main h3{
+			color: rgb(0,188,212);
+		}
+
+			#main h3.rank{
+			text-align: right;
+			color: rgb(100,100,100);
+		}
+
+			#main h4{
+			text-align: right;
+		}
+
+			#main h4.match{
+			text-align: right;
+			line-height: 3.1em;
+			color: rgb(227, 134, 43);
+		}
+
+			#main p{
+			color: rgb(42,47,57);	
+		}
+
+
+
 	body.landing #main {
-		margin-top: -13em;
+		margin-top: -10em;
 	}
+
+	
 
 /* Footer */
 
@@ -3487,6 +3522,10 @@
 					border-left: 0;
 					margin-left: 0;
 					padding-left: 0;
+				}
+
+				#main #result{
+					margin-top:1em;
 				}
 
 /* CTA */
@@ -3582,6 +3621,7 @@
 
 
 }
+
 	@media screen and (max-width: 1280px) {
 
 		/* Basic */
@@ -3605,7 +3645,7 @@
 				border: 0;
 				width:12.15em;
 				height: 3.25em;
-				background: url("mm-logo-white.png");
+				background: url("launchlab-web-dark.png");
 				background-repeat: no-repeat;
 				background-size: 12.1em;
 				display: inline-block;
@@ -3613,7 +3653,6 @@
 				top: -.255em;
 				left: -12.6em;
 				background-position: center;
-			}
 */				
 
 		/* Banner */
@@ -3889,7 +3928,7 @@
 			}
             
             .box{
-                background: rgba(250,250,250,.9);
+                background: rgba(42,47,57,.9);
 			}
             
             #main {
@@ -4046,7 +4085,6 @@
 
 			#footer {
 				padding: 4em 0;
-				background-color: rgb(0,0,0)
 			}
 
 				#footer .copyright li {
@@ -4090,8 +4128,42 @@
 				border-color: #fff;
 			}
 
+			.\32 u, .\32 u\24 {
+				width: 100%;
+				clear: none;
+				margin-left: 0;
+			}
 
-		#header #startup{
+			.\31 u, .\31 u\24 {
+				width: 5%;
+				clear: none;
+				margin-left: 0;
+			}
+
+			#main h3{
+				color: rgb(0,188,212);
+			}
+
+			#main h3.rank{
+				text-align: left;
+				color: rgb(0,0,0)
+			}
+
+			#main h4{
+				text-align: left;
+				color: rgb(150,150,150);
+			}
+
+			#main h4.match{
+				text-align: left;
+				line-height: 3.1em;
+			}
+
+			#main p{
+				color: rgb(250,250,250);	
+			}
+
+					#header #startup{
 			color: rgb(50,50,50);
 			height: inherit;
 			right: 6.8em;
@@ -4155,6 +4227,9 @@
 				
 
 			}
+
+
+
 		/* Section/Article */
 
 			header.major {
@@ -4215,7 +4290,7 @@
 				
 				
 			}
-
+			
 
 			#nav{
 				display: none;
@@ -4295,7 +4370,7 @@
 		/* Banner */
 
 			#banner {
-				padding: 5em 1em 0em 1em;
+				padding: 5em 1em 2em 1em;
 				background-attachment: scroll, scroll !important;
 				background-color: rgb(50,50,50);
 				background-image: url("diagonal-noise.png"), url("dubai11phone.jpeg") !important;
